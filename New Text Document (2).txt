@@ -1,0 +1,26 @@
+The Script should accept an integer value as a command-
+line argument.
+At first, a greeting message should be displayed
+Hello, username.
+Your current working directory is path
+Where username is your ubuntu user name and path is the
+path of your current working directory. (use the appropriate
+Linux commands to do that)
+Then a menu should be displayed that has the following
+list of options ( 4 options ):
+
+1- Arrange my Files.
+Prompt the user to enter a directory name and create it.
+Then move all the (.cpp) files to the created directory.
+Hint: use my .cpp command to do that
+2- Check my Number
+Check if the number passed as command argument is divisible
+by 7 or not. If no command line argument passed, it should
+display the message No number found.
+3- Search my directory.
+Prompt the user to enter a directory name and a word (pattern),
+then list all the files in that directory that has this word. Hint: use
+grep command with -r and -c option.
+4- Exit
+To exit the script If the user enters a number not in the list of
+options, then an appropriate message should be displayed.
